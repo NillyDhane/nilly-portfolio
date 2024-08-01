@@ -21,7 +21,9 @@ const Header = () => {
           GitHub
         </a>
         <a
-          href="#"
+          href="https://www.youtube.com/channel/UCgHj9UaaNQXu4fe5Ko8LknA"
+          target="_blank"
+          rel="noopener noreferrer"
           className="text-white hover:text-gray-300  text-sm md:text-base"
         >
           YouTube
