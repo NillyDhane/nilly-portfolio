@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "style": "default",
+  "rsc": true,
+  "tsx": true,
+  "tailwind": {
+    "config": "my-portfolio/tailwind.config.js",
+    "css": "my-portfolio/src/styles/index.css",
+    "baseColor": "slate",
+    "cssVariables": true,
+    "prefix": ""
+  },
+  "aliases": {
+    "components": "my-portfolio/src/Components",
+    "utils": "my-portfolio/src/Utils",
+    "ui": "my-portfolio/src/Components/ui",
+    "magicui": "my-portfolio/src/Components/magicui"
+  }
+}

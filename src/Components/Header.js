@@ -1,0 +1,34 @@
+import React from "react";
+
+const Header = () => {
+  return (
+    <div className="absolute top-0 left-0 w-full flex justify-center bg-transparent py-4 z-50">
+      <div className="flex gap-6 md:gap-10 ">
+        <a
+          href="https://www.linkedin.com/in/nilacksha-dhanawardhane-722663316/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-white hover:text-gray-300 text-sm md:text-base"
+        >
+          LinkedIn
+        </a>
+        <a
+          href="https://github.com/NillyDhane"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-white hover:text-gray-300  text-sm md:text-base"
+        >
+          GitHub
+        </a>
+        <a
+          href="#"
+          className="text-white hover:text-gray-300  text-sm md:text-base"
+        >
+          YouTube
+        </a>
+      </div>
+    </div>
+  );
+};
+
+export default Header;
